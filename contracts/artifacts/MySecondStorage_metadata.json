@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyStorage.sol": "MyStorage"
+			"contracts/MySecondStorage.sol": "MySecondStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -77,12 +77,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyStorage.sol": {
-			"keccak256": "0x48357be087976b81f18bf67e3f8172f0ca60a1b2fee2d1e18d72364be0772801",
+		"contracts/MySecondStorage.sol": {
+			"keccak256": "0x1719c1eee62eb31c0669c4b7fdc3b288449199b146e6b0167e43f749110d4d5e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4338243705f1109efc34b46111fc7755d30071cffb33528ea5b8540317db53e6",
-				"dweb:/ipfs/Qmaf6zJ1XeWChdyb8jg1ts7PPczfLS8GNBbdWCiydovuxn"
+				"bzz-raw://822d2e46aa883e415c7f7c52f2e49c02f6a0c4090bcc0c2fc8e4620e2ca8b5e9",
+				"dweb:/ipfs/Qmcnvc4zNUnFHfbVxBinv2Qyf83ryPin3T7dzZkm36jtNy"
+			]
+		},
+		"contracts/MyStorage.sol": {
+			"keccak256": "0x5be81d9f43bad221ba38ba9ab68655f1ddce87775386b8c173f3ad7471e81d65",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://541cd69933daaa565f78a9d7b4e884f4acc1b906fe8a95072d10bfbe9df03d3c",
+				"dweb:/ipfs/Qmb7hLb2VTM83Ejfbv9Xmjxc99GdEGtTqZncqZuUN9nEKa"
 			]
 		}
 	},

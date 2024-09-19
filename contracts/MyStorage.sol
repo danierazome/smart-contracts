@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.24;
+pragma solidity 0.8.26;
 
 contract MyStorage {
     struct Person {
@@ -9,7 +9,8 @@ contract MyStorage {
 
     Person public person = Person({name: "daniel", luckNumber: 0});
 
-    function updateNumber(uint32 _luckNumber) public {
+    // VIRTUAL IS ADDED TO MAKE THE FUNCTION OVERWRITEABLE
+    function updateNumber(uint32 _luckNumber) public virtual{
         person.luckNumber = _luckNumber;
     }
 
